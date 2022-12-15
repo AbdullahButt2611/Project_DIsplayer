@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Khadija Iqbal | It's DJ</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="img/Logo.png" type="image/x-icon">
+
+
+    <!-- =====================      Box Icons       ============================== -->
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+    
+</head>
+<body>
+    <!-- =====================      Scroll Top       ============================== -->
+    <a href="#home" class="scrolltop" id="scroll-top">
+        <i class='bx bx-chevron-up scrolltop__icon'></i>
+    </a>
+
+    <main class="l-main">
+        <!-- =======        Home        =========== -->
+        <section class="home" id="home">
+            <div class="home__container bd-container bd-grid">
+                <div class="home__data">
+                    <span class="home__greeting">Hello, My Name is</span>
+                    <h1 class="home__name">Muhammad Abdullah Butt</h1>
+                    <span class="home__profession">Full Stack Developer/Graphic Designer</span>
+                    <a download="" href="DJ-CV.pdf" class="button button-light home__button">Download CV</a>
+                </div>
+
+                <div class="home__social">
+                    <a href="https://www.facebook.com/khadija.iqbal.3532" class="home__social-icon"><i class='bx bxl-facebook' ></i></a>
+                    <a href="https://www.instagram.com/thenwhosdj/" class="home__social-icon"><i class='bx bxl-instagram' ></i></a>
+                    <a href="#" class="home__social-icon"><i class='bx bxl-github' ></i></a>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- =======        Portfolio        =========== -->
+        <section class="portfolio section bd-container" id="portfolio">
+            <span class="section-subtitle">My Recent Works</span>
+            <h2 class="section-title">Portfolio</h2>
+
+            <div class="portfolio__nav">
+                <span class="portfolio__item active-portfolio" data-filter="all">All</span>
+                <span class="portfolio__item" data-filter=".functioning_web">Functioning Web</span>
+                <span class="portfolio__item" data-filter=".ux">UI/Ux Design</span>
+                <span class="portfolio__item" data-filter=".app">App</span>
+            </div>
+
+            <div class="portfolio__container bd-grid">
+                <div class="portfolio__content mix functioning_web">
+                    <a href="#"><img src="img/work1.jpg" alt="" class="portfolio__img"></a>
+                    <div class="portfolio__data">
+                        <span class="portfolio__subtitle">Web Development</span>
+                        <a href="#"><h2 class="portfolio__title">New profile of work done for client</h2></a>
+                        <a href="#" class="button button-link">View Details</a>
+                    </div>
+                </div>
+
+                <div class="portfolio__content mix web">
+                    <a href="#"><img src="img/work2.jpg" alt="" class="portfolio__img"></a>
+                    <div class="portfolio__data">
+                        <span class="portfolio__subtitle">Web Development</span>
+                        <a href="#"><h2 class="portfolio__title">New profile of work done for client</h2></a>
+                        <a href="#" class="button button-link">View Details</a>
+                    </div>
+                </div>
+
+                <div class="portfolio__content mix ux">
+                    <a href="#"><img src="img/work3.jpg" alt="" class="portfolio__img"></a>
+                    <div class="portfolio__data">
+                        <span class="portfolio__subtitle">UX Design</span>
+                        <a href="#"><h2 class="portfolio__title">New profile of work done for client</h2></a>
+                        <a href="#" class="button button-link">View Details</a>
+                    </div>
+                </div>
+
+                <div class="portfolio__content mix ux">
+                    <a href="#"><img src="img/work4.jpg" alt="" class="portfolio__img"></a>
+                    <div class="portfolio__data">
+                        <span class="portfolio__subtitle">UX Design</span>
+                        <a href="#"><h2 class="portfolio__title">New profile of work done for client</h2></a>
+                        <a href="#" class="button button-link">View Details</a>
+                    </div>
+                </div>
+
+                <div class="portfolio__content mix app">
+                    <a href="#"><img src="img/work5.jpg" alt="" class="portfolio__img"></a>
+                    <div class="portfolio__data">
+                        <span class="portfolio__subtitle">Mobile App</span>
+                        <a href="#"><h2 class="portfolio__title">New profile of work done for client</h2></a>
+                        <a href="#" class="button button-link">View Details</a>
+                    </div>
+                </div>
+
+                <div class="portfolio__content mix app">
+                    <a href="#"><img src="img/work6.jpg" alt="" class="portfolio__img"></a>
+                    <div class="portfolio__data">
+                        <span class="portfolio__subtitle">Mobile App</span>
+                        <a href="#"><h2 class="portfolio__title">New profile of work done for client</h2></a>
+                        <a href="#" class="button button-link">View Details</a>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+    <!-- =====================      Footer       ============================== -->
+    <footer class="footer">
+        <div class="footer__container bd-container">
+            <h1 class="footer__title">M. Abdullah Butt</h1>
+            <p class="footer__description">
+                Here You can access the live demo of all my projects
+            </p>
+
+            <div class="footer__social">
+                <a href="https://www.facebook.com/khadija.iqbal.3532"  class="footer__link"><i class='bx bxl-facebook' ></i></a>
+                <a href="https://www.instagram.com/thenwhosdj/"  class="footer__link"><i class='bx bxl-instagram' ></i></a>
+                <a href="#"  class="footer__link"><i class='bx bxl-github' ></i></a>
+            </div>
+            <p class="footer__copy">&copy; 2022 MAB. All Rights Reserved. </p>
+        </div>
+    </footer>
+
+    <!-- =====================      MIXITUP Filter       ============================== -->
+    <script src="mixitup.min.js"></script>
+
+    <!-- =====================      GSAP JS       ============================== -->
+    <script src="gsap.min.js"></script>
+
+    <!-- =====================      Main js       ============================== -->
+    <script src="main.js"></script>
+    
+</body>
+</html>
